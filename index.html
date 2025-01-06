@@ -4,7 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- 1.linkeamos el archivo css a la pagina web .html 
+     Esto signfica establecemos las reglas tipeando codigo dentro del archivo
+    index.css (Es lo usual/Recomiendo)-->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- 2.Ponemos reglas de stilos de css dentro de este archivo html (No es usual)-->
+    <style>
+        body{
+            background-color: brown;
+            font-size: 18px;
+        }
+        h1{
+            color:blue
+        }
+    </style>
 </head>
+
 <body>
     <!-- Alt + shift + a -->
      <!-- hay veces q la barra de navegacion esta dentro del header, hay veces q esta la barra de naveg y no
@@ -38,8 +55,8 @@
         <section>
             <h1> Productos para la casa</h1>
             <article>
-                <h2>Cocina</h2>
-                    <p>
+                <h2 class="tituloRojo tipografiaNueva">Cocina</h2>
+                    <p id="parrafoAzul">
                     Lorem ipsum dolor sit amet consectetur,<a href="./pages/formulario.html#formregister">Formulario</a> adipisicing elit. Porro illo eius, quia delectus
                      animi modi quos quae recusandae dolore officiis distinctio possimus iusto sapiente 
                      dignissimos voluptatem voluptas ad odio ducimus.
@@ -50,7 +67,7 @@
                     </p>
             </article>
             <article>
-                <h2>Dormitorios</h2>
+                <h2 class="tituloRojo">Dormitorios</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quam quos illum consequuntur 
                     provident incidunt nihil placeat quibusdam culpa? Culpa corrupti sunt nisi 
                     fugiat possimus reprehenderit omnis tempora unde maxime!
